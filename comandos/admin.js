@@ -198,7 +198,7 @@ module.exports = admin = async(client,message) => {
                 } 
                 break
 
-            case "!fotobot":
+            case "!fotodobot":
                 if(isMedia || quotedMsg){
                     var dadosMensagem = {
                         tipo : (isMedia) ? type : quotedMsg.type,
